@@ -75,7 +75,7 @@
 		cellspacing="0" class="main_tabbor">
 		<tr valign="top">
 			<td>
-				<form action="${ctx}/user/addUser" id="userForm" method="post">
+				<form action="${ctx}/user/addUser?flag=2" id="userForm" method="post">
 					<!-- 隐藏表单，flag表示添加标记 -->
 					<input type="hidden" name="flag" value="2">
 					<table width="100%" border="0" cellpadding="0" cellspacing="10"

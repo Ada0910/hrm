@@ -141,7 +141,7 @@ public class UserController {
 			 String flag,
 			 @ModelAttribute User user,
 			 ModelAndView mv){
-		if(flag.equals("1")){
+ 		if(flag.equals("1")){
 			// 设置跳转到添加页面
 			mv.setViewName("user/showAddUser");
 		}else{
